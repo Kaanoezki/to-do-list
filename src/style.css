@@ -1,0 +1,21 @@
+h1 {
+    text-align:center; 
+    
+}
+#taskList{
+    max-width: 300px;
+    margin: 0 auto; 
+}
+
+li{
+    list-style-type: none;
+    padding: 5px;
+    border: 1px solid#ccc;
+    margin:5px;
+    cursor:pointer;
+}
+#taskForm{
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+}
