@@ -19,3 +19,15 @@ li{
     max-width: 300px;
     margin: 0 auto;
 }
+
+#taskName {
+    flex: 1;
+    padding: 5px;
+}
+#addTask {
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
