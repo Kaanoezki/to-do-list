@@ -12,12 +12,28 @@ document.addEventListener('DOMContentLoaded',function(){
     }
 }
 */
+//button selector 
 var contentDiv = document.querySelector("#content");
 var introParagraph = contentDiv.querySelector(".intro");
 var buttonElement = contentDiv.querySelector("button");
     introParagraph.textContent = "dieser Satz wurde geändert";
     buttonElement.addEventListener("click" ,function(){
         alert("button wurde geändert")
-    document.body.style.backgroundColor = "red";
+
     introParagraph.style.backgroundColor =   introParagraph.style.backgroundColor = "lightblue"
     })
+//path finder
+document.body.style.backgroundImage = "(../assets/UI--tablet--website.jpg)"
+var currentPath = window.location.pathname;
+console.log (currentPath);
+var parentPath = currentPath + "/..";       
+// change background
+var changeBackgroundButton = document.querySelector("#backgroundchanger");
+// on click log + change
+changeBackgroundButton.addEventListener("click", function() {
+   
+    var bodyElement = document.body;
+    bodyElement.style.backgroundColor = "lightblue";
+    if(bodyElement.style.backgroundColor = "lightblue;"){
+
+    console.log ("background changed");}})
