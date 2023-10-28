@@ -22,6 +22,9 @@ var buttonElement = contentDiv.querySelector("button");
 
     introParagraph.style.backgroundColor =   introParagraph.style.backgroundColor = "lightblue"
     })
+
+    //mouseovereffect
+    var mouseOverEffect = function() {
 //path finder
 document.body.style.backgroundImage = "(../assets/UI--tablet--website.jpg)"
 var currentPath = window.location.pathname;
@@ -36,4 +39,9 @@ changeBackgroundButton.addEventListener("click", function() {
     bodyElement.style.backgroundColor = "lightblue";
     if(bodyElement.style.backgroundColor = "lightblue;"){
 
-    console.log ("background changed");}})
+    console.log ("background changed");}})}
+//mouse hover function
+var mouseHoverEffect = document.getElementById("hoverjs");
+mouseHoverEffect.addEventListener("mouseover",function(){
+    mouseHoverEffect.style.backgroundColor ="red"
+})
