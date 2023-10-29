@@ -41,7 +41,13 @@ changeBackgroundButton.addEventListener("click", function() {
 
     console.log ("background changed");}})}
 //mouse hover function
-var mouseHoverEffect = document.getElementById("hoverjs");
+var mouseHoverEffect = document.getElementById("mouseHoverEffect");
+if(
 mouseHoverEffect.addEventListener("mouseover",function(){
-    mouseHoverEffect.style.backgroundColor ="red"
-})
+    mouseHoverEffect.style.backgroundColor ="lightblue"
+    mouseHoverEffect.textContent = "mouse hover!";
+}));
+else (mouseHoverEffect.addEventListener("mouseout",function(){
+    mouseHoverEffect.style.backgroundColor ="white";
+    mouseHoverEffect.textContent = "mouse hover over";
+}));
