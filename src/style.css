@@ -7,6 +7,15 @@ h1 {
     margin: 0 auto; 
 }
 
+
+#mouseHoverEffect {
+    width: 200px;
+    height: 100px;
+   
+    border-color: black;
+    border-style: double;
+}
+
 li{
     list-style-type: none;
     padding: 5px;
@@ -30,6 +39,14 @@ li{
     color: white;
     border: none;
     cursor: pointer;
+}
+h2{
+    background-color: white;
+}
+ 
+#JS-ReactTesting:hover{
+    background-color: yellow;
+    color: blue;
 }
 #JS-ReactTesting{
     border-color:black;
